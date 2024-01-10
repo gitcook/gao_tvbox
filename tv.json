@@ -1,19 +1,19 @@
 {
-    "spider":"./xyq/jar/fan.txt;md5;5aee1ff968a3dc5cbbf225399e9441e9", 
+    "spider":"./jar/fan.txt;md5;5aee1ff968a3dc5cbbf225399e9441e9", 
     "sites": [
     	
     {"key":"drpy_js_豆瓣","name":"豆瓣 | 热播[js]","type":3,"api":"./lib/apiv1001drpy2.min.js","ext":"./lib/drpy.js"},
     
     
     // {"key":"豆瓣","name":"🔍豆瓣荐片","type":3,"style":{ "type":"rect", "ratio":0.56 },"api":"./js/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./js/lib/douban.js"},
-    // {"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./xyq/lib/drpy2.min.js","ext":"./xyq/js/drpy.js"},
-    // {"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"api":"./xyq/lib/drpy2.min.js","ext":"./xyq/js/奇珍异兽.js"},
+    // {"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
+    // {"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
 
     
     {"key": "csp_WoGG","name": "❤玩偶fan", "type": 3, "api": "csp_WoGG", "searchable": 1, "quickSearch": 1,"filterable":1,"ext": "./mytoken_uiAJK.txt+4k/fhd$$$https://api.wogg.xyz/$$$弹"},
-    {"key": "玩偶","name": "玩偶FM","type": 3,"api": "csp_Wogg","searchable": 1,"changeable": 0,"ext": {"token": "./mytoken_uiAJK.txt","filter": "./json/wogg.json"},"jar": "./xyq/jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
-    {"key":"玩偶弹幕版","name":"玩偶ok","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {"token": "./mytoken_uiAJK.txt","filter": "./json/wogg.json","danmu" : true},"jar":"./xyq/jar/ok.png;md5;EE31F8DE623D7DF3D29BBC45E8504A40"},
-    // {"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./xyq/XYQHiker/玩偶哥哥.json","jar":"./xyq/jar/XYQ.jar;md5;ce364d69792a2663e62022e66eae39c9"},
+    {"key": "玩偶","name": "玩偶FM","type": 3,"api": "csp_Wogg","searchable": 1,"changeable": 0,"ext": {"token": "./mytoken_uiAJK.txt","filter": "./json/wogg.json"},"jar": "./jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
+    {"key":"玩偶弹幕版","name":"玩偶ok","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {"token": "./mytoken_uiAJK.txt","filter": "./json/wogg.json","danmu" : true},"jar":"./jar/ok.png;md5;EE31F8DE623D7DF3D29BBC45E8504A40"},
+    // {"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":".Hiker/玩偶哥哥.json","jar":"./jar.jar;md5;ce364d69792a2663e62022e66eae39c9"},
 
 
 
@@ -29,26 +29,26 @@
     // {"key":"drpy_js_直播大全","name":"直播IPTV","type":3,"api":"./lib/live2cms.js","recordable":0,"style":{ "type":"oval"},"changeable":0,"ext":"./js/live2mv_data.json"},
     
     // {"key": "lf_js_search","name": "搜索 | lf_search","type": 3,"searchable": 0,"changeable": 0,"quickSearch": 0,"filterable": 1,"style":{ "type":"rect", "ratio":0.8 },"api": "./lib/apiv919uukw.js"},
-    {"key":"csp_WoGG1","name":"PG哥哥","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt$$$https://api.wogg.xyz/$$$1"， "timeout":30,"jar":"./xyq/jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
-    {"key":"csp_Wobg1","name":"PG表哥","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt$$$https://wobge.run.goorm.io$$$1", "timeout":30,"jar":"./xyq/jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
+    {"key":"csp_WoGG1","name":"PG哥哥","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt$$$https://api.wogg.xyz/$$$1"， "timeout":30,"jar":"./jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
+    {"key":"csp_Wobg1","name":"PG表哥","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt$$$https://wobge.run.goorm.io$$$1", "timeout":30,"jar":"./jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
     
 
 
       
-    // {"key": "csp_XYQHiker_哔嘀影视","name":"哔嘀影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/哔嘀影视.json","jar":"./xyq/jar/XYQ.jar;md5;ce364d69792a2663e62022e66eae39c9"},
-    {"key":"csp_Kuaikan","name":"快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"jar":"./xyq/jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
-    {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"changeable":1,"ext":"0","jar":"./xyq/jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
-    {"key":"影视","name":"影视","type":3,"api":"csp_YingShi","searchable":1,"changeable":1,"jar":"./xyq/jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
-    {"key":"星星","name":"星星","type":3,"api":"csp_Star","searchable":1,"changeable":1,"jar":"./xyq/jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
-    {"key":"csp_Hdhive","name":"影巢","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"" , "timeout":30,"jar":"./xyq/jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
+    // {"key": "csp_XYQHiker_哔嘀影视","name":"哔嘀影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/哔嘀影视.json","jar":"./jar.jar;md5;ce364d69792a2663e62022e66eae39c9"},
+    {"key":"csp_Kuaikan","name":"快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
+    {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"changeable":1,"ext":"0","jar":"./jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
+    {"key":"影视","name":"影视","type":3,"api":"csp_YingShi","searchable":1,"changeable":1,"jar":"./jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
+    {"key":"星星","name":"星星","type":3,"api":"csp_Star","searchable":1,"changeable":1,"jar":"./jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
+    {"key":"csp_Hdhive","name":"影巢","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"" , "timeout":30,"jar":"./jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1"},
     
     
     
-    {"key": "push_agent","name": "🛴手机┃推送","type": 3,"api": "csp_Push","searchable": 0,"quickSearch": 0,  "ext": "./mytoken_uiAJK.txt+4k|fhd|auto","jar": "./xyq/jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
-    {"key":"PanSou","name":"🦊盘搜Sou","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt+4k|auto|fhd","jar": "./xyq/jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
-    {"key":"UpYun","name":"😻Up搜","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt+4k|auto|fhd","jar": "./xyq/jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
-    {"key":"PanSearch","name":"🙀盘Search","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt+4k|auto|fhd","jar": "./xyq/jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
-    {"key":"七夜","name":"😾七夜┃搜索","type":3,"api":"csp_Dovx","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt+4k|auto|fhd","jar": "./xyq/jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
+    {"key": "push_agent","name": "🛴手机┃推送","type": 3,"api": "csp_Push","searchable": 0,"quickSearch": 0,  "ext": "./mytoken_uiAJK.txt+4k|fhd|auto","jar": "./jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
+    {"key":"PanSou","name":"🦊盘搜Sou","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt+4k|auto|fhd","jar": "./jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
+    {"key":"UpYun","name":"😻Up搜","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt+4k|auto|fhd","jar": "./jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
+    {"key":"PanSearch","name":"🙀盘Search","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt+4k|auto|fhd","jar": "./jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
+    {"key":"七夜","name":"😾七夜┃搜索","type":3,"api":"csp_Dovx","searchable":1,"quickSearch":1,"changeable":0,"ext":"./mytoken_uiAJK.txt+4k|auto|fhd","jar": "./jar/custom_spider.jar;md5;6bf74e9b02f310ddcab9c460b7e0983c"},
 
     
     {"key":"Czsapp","name":"厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://czz9.com/"},
